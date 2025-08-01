@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Valery - Portafolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Sobre Mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <p class="text-muted mb-2">Hola, soy</p>
+                        <h1>Valery Campos <br></h1>
+                        <p class="subtitle">Me motiva crear tecnologías que piensan y funcionan.</p>
+                        <div class="d-flex gap-3">
+                            <a class="btn btn-outline-custom" href="#contact">Contactarme</a>
+                        </div>
+                        <div class="social-links">
+                            <a href="www.linkedin.com/in/valery-rosa-campos-rueda-235ba536b" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://github.com/ValeryRosa" class="social-link"><i class="fab fa-github"></i></a>
+                            <!-- Hero Secti<a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>-->
+                            <!-- Hero Secti<a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="text-center position-relative">
+                        <div class="hero-image mx-auto" style="background: url('imagenes/rcentrada.jpg') center/cover; width: 400px; height: 400px; border-radius: 60%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="about-card">
+                        <div class="icon">
+                            <i class="fas fa-question-circle"></i>
+                        </div>
+                        <h4>¿Quién Soy?</h4>
+                        <p>Soy una estudiante de la carrera de Ingeniería de Sistemas e Informática con conocimientos en programación en Java, Python y arquitectura de software.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="about-card">
+                        <div class="icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h4>Mi Objetivo</h4>
+                        <p>Mi objetivo es crecer como desarrolladora, especializándome en tecnologías de arquitectura backend para crear soluciones predictivas, automatizadas y centradas en el usuario, siempre con foco en la eficiencia y la escalabilidad.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="about-card">
+                        <div class="icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <h4>Mi Perfil</h4>
+                        <p>Me caracterizo por mi capacidad para aprender rápidamente y resolver problemas eficientemente.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+<section class="skills-section">
+    <div class="container">
+        <h2 class="section-title">Mis Habilidades Técnicas</h2>
+        <div class="row justify-content-center">
+            <!-- HTML -->
+            <div class="col-lg-2 col-md-3 col-4">
+                <div class="skill-item">
+                    <div style="width: 50px; height: 50px; background: #E34F26; border-radius: 10px; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
+                        <i class="fab fa-html5" style="color: white; font-size: 24px;"></i>
+                    </div>
+                    <p class="mb-0 fw-bold">HTML</p>
+                </div>
+            </div>
+
+            <!-- CSS -->
+            <div class="col-lg-2 col-md-3 col-4">
+                <div class="skill-item">
+                    <div style="width: 50px; height: 50px; background: #1572B6; border-radius: 10px; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
+                        <i class="fab fa-css3-alt" style="color: white; font-size: 24px;"></i>
+                    </div>
+                    <p class="mb-0 fw-bold">CSS</p>
+                </div>
+            </div>
+
+            <!-- Bootstrap -->
+            <div class="col-lg-2 col-md-3 col-4">
+                <div class="skill-item">
+                    <div style="width: 50px; height: 50px; background: #7952B3; border-radius: 10px; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
+                        <i class="fab fa-bootstrap" style="color: white; font-size: 24px;"></i>
+                    </div>
+                    <p class="mb-0 fw-bold">Bootstrap</p>
+                </div>
+            </div>
+
+            <!-- JavaScript -->
+            <div class="col-lg-2 col-md-3 col-4">
+                <div class="skill-item">
+                    <div style="width: 50px; height: 50px; background: #F7DF1E; border-radius: 10px; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
+                        <i class="fab fa-js-square" style="color: black; font-size: 24px;"></i>
+                    </div>
+                    <p class="mb-0 fw-bold">JavaScript</p>
+                </div>
+            </div>
+
+            <!-- Java -->
+            <div class="col-lg-2 col-md-3 col-4">
+                <div class="skill-item">
+                    <div style="width: 50px; height: 50px; background: #007396; border-radius: 10px; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
+                        <i class="fab fa-java" style="color: white; font-size: 24px;"></i>
+                    </div>
+                    <p class="mb-0 fw-bold">Java</p>
+                </div>
+            </div>
+
+            <!-- Python -->
+            <div class="col-lg-2 col-md-3 col-4">
+                <div class="skill-item">
+                    <div style="width: 50px; height: 50px; background: #3776AB; border-radius: 10px; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
+                        <i class="fab fa-python" style="color: white; font-size: 24px;"></i>
+                    </div>
+                    <p class="mb-0 fw-bold">Python</p>
+                </div>
+            </div>
+
+            <!-- MySQL -->
+            <div class="col-lg-2 col-md-3 col-4">
+                <div class="skill-item">
+                    <div style="width: 50px; height: 50px; background: #336791; border-radius: 10px; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
+                        <i class="fas fa-database" style="color: white; font-size: 24px;"></i>
+                    </div>
+                    <p class="mb-0 fw-bold">MySQL</p>
+                </div>
+            </div>
+
+            <!-- Git -->
+            <div class="col-lg-2 col-md-3 col-4">
+                <div class="skill-item">
+                    <div style="width: 50px; height: 50px; background: #F1502F; border-radius: 10px; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
+                        <i class="fab fa-git-alt" style="color: white; font-size: 24px;"></i>
+                    </div>
+                    <p class="mb-0 fw-bold">Git</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+      <h2 class="section-title">Proyectos</h2>
+      <div class="container">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-lg-6 mb-4">
+            <div class="project-card">
+              <div class="project-image">
+                <img src="imagenes/agencia.jpg" alt="Agencia" style="width: 100%; height: 300px; object-fit: cover; border-radius: 8px;">
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Agencia de Viajes</h3>
+                <p>Landing Page elaborada con HTML, CSS y JavaScript. Incluye un bot en el inicio.</p>
+                <div class="mt-3 d-flex gap-2">
+                  <a href="https://github.com/ValeryRosa/AgenciaViaje" class="btn btn-outline-dark btn-sm" target="_blank">
+                    <i class="fab fa-github me-1"></i> GitHub
+                  </a>
+                  <a href="https://agenciaviajes-o3xi.onrender.com" class="btn btn-primary btn-sm" target="_blank">
+                    <i class="fas fa-external-link-alt me-1"></i> Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Proyecto 2 -->
+          <div class="col-lg-6 mb-4">
+            <div class="project-card">
+              <div class="project-image">
+                <img src="imagenes/farmacia.jpg" alt="Farmacia" style="width: 100%; height: 300px; object-fit: cover; border-radius: 8px;">
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Sistema de Farmacia</h3>
+                <p>Sistema de escritorio en Java. Métodos para crear, buscar, listar y limpiar campos.</p>
+                <div class="mt-3 d-flex gap-2">
+                  <a href="https://github.com/ValeryRosa/ProyectoFarmacia" class="btn btn-outline-dark btn-sm" target="_blank">
+                    <i class="fab fa-github me-1"></i> GitHub
+                  </a>
+                  <a href="#" class="btn btn-primary btn-sm" target="_blank">
+                    <i class="fas fa-external-link-alt me-1"></i> Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Proyecto 3 
+          <div class="col-lg-6 mb-4">
+            <div class="project-card">
+              <div class="project-image">
+                <img src="imagenes/tercer-proyecto.jpg" alt="Proyecto 3" style="width: 100%; height: 300px; object-fit: cover; border-radius: 8px;">
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Proyecto 3</h3>
+                <p>Descripción del tercer proyecto aquí.</p>
+                <div class="mt-3 d-flex gap-2">
+                  <a href="#" class="btn btn-outline-dark btn-sm" target="_blank">
+                    <i class="fab fa-github me-1"></i> GitHub
+                  </a>
+                  <a href="#" class="btn btn-primary btn-sm" target="_blank">
+                    <i class="fas fa-external-link-alt me-1"></i> Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- Proyecto 4 
+          <div class="col-lg-6 mb-4">
+            <div class="project-card">
+              <div class="project-image">
+                <img src="imagenes/cuarto-proyecto.jpg" alt="Proyecto 4" style="width: 100%; height: 300px; object-fit: cover; border-radius: 8px;">
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Proyecto 4</h3>
+                <p>Descripción del cuarto proyecto aquí.</p>
+                <div class="mt-3 d-flex gap-2">
+                  <a href="#" class="btn btn-outline-dark btn-sm" target="_blank">
+                    <i class="fab fa-github me-1"></i> GitHub
+                  </a>
+                  <a href="#" class="btn btn-primary btn-sm" target="_blank">
+                    <i class="fas fa-external-link-alt me-1"></i> Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>-->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h2 class="display-4 fw-bold mb-4">Trabajemos Juntos</h2>
+                    <p class="lead mb-4">Estoy interesado en oportunidades para colaborar en proyectos innovadores y desafiantes. Si tienes alguna propuesta, pregunta o simplemente quieres saludar, no dudes en contactarme a través del formulario.</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/valery-rosa-campos-rueda-235ba536b/" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/ValeryRosa/" class="social-link"><i class="fab fa-github"></i></a>
+                        <!--
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>-->
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-form">
+                        <form action="https://formsubmit.co/vrosa.camposs@gmail.com" method="POST">
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="email" placeholder="example@gmail.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Tu mensaje</label>
+                                <textarea class="form-control" id="message" rows="5" placeholder="Escribe tu mensaje aquí..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary-custom w-100">Enviar Mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4" style="background: var(--card-bg); border-top: 1px solid rgba(30, 64, 175, 0.1);">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2025. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0">Desarrollado con <i class="fas fa-heart" style="color: var(--soft-pink);"></i> y mucho café</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JavaScript -->
+     <script src="script.js"></script>
+</body>
+</html>
